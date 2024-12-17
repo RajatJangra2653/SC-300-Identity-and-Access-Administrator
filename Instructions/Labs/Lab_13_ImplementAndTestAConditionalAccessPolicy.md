@@ -86,12 +86,12 @@ In this task, you will try to access Microsoft Sway website.
 7. In order to block a specific app from the user, execute the following configurations while creating the conditional access policy:
     
     - Under the **Target resources** section, click on **No target resources selected (1)**.
-    - Ensure to have **Cloud apps (2)** option selected from the dropdown list.
-    - Within the **Include** tab, choose the **Select apps (3)** radio button.
+    - Ensure to have **Resources (formerly cloud apps) (2)** option selected from the dropdown list.
+    - Within the **Include** tab, choose the **Select Resources (3)** radio button.
     - Click on **Select (4)** which opens the Select pane.
     - In the Select pane, search for and select **Sway (5)** and then click on **Select (6)**.
 
-      ![image](https://github.com/user-attachments/assets/5e58ea8e-5b18-425a-b2e0-31f39351767c)
+      ![](./media/New-01.png)
 
 
 8. To provide control access enforcement to block or grant access, perform the following:
@@ -222,12 +222,12 @@ As part of your company's larger security configuration, you must test a conditi
 3. In order to implement sign in reauthentication frequency to a specific app for the user, execute the following configurations while creating the conditional access policy:
     
     - Under the **Target resources** section, click on **No target resources selected (1)**.
-    - Ensure to have **Cloud apps (2)** option selected from the dropdown list.
-    - Within the **Include** tab, choose the **Select apps (3)** radio button.
+    - Ensure to have **Resources (formerly cloud apps) (2)** option selected from the dropdown list.
+    - Within the **Include** tab, choose the **Select Resources (3)** radio button.
     - Click on **Select (4)** which opens the Select pane.
     - In the Select pane, search for and select **Sway (5)** and then click on **Select (6)**.
 
-      ![image](https://github.com/user-attachments/assets/5e58ea8e-5b18-425a-b2e0-31f39351767c)
+      ![](./media/New-01.png)
 
 4. To set control access based on session controls to enable limited experiences within specific cloud applications, perform the following:
     

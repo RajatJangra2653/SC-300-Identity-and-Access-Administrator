@@ -50,7 +50,9 @@ Based on your organizational requirements, you can customize the Microsoft Entra
    >**Note:** When the smart lockout threshold is triggered, you will get the following message while the account is locked:
     - Your account is temporarily locked to prevent unauthorized use. Try again later, and if you still have trouble, contact your admin.
 
-1. This can be tested by using your Entra ID credentials, Open a private browser and navigate to <login.microsoftonline.com> and enter an incorrect password until the account gets notification that it is locked out.
+1. This can be tested by using your Entra ID credentials, Open a private browser and navigate to <login.microsoftonline.com> and Enter an incorrect password repeatedly until the account receives a notification that it has been locked out, as shown in the screenshot.
+   
+   ![](./media/temp.png)
 
 ## Review
 In this lab, you have completed:

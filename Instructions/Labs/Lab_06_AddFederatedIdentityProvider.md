@@ -27,7 +27,7 @@ After completing this lab, you will be able to:
 
 2. Accept the terms of service if you're prompted to do so.
 
-3. At the top of the page, click on the dropdown next to the **select a project** menu to open the Select a project page. Choose **Create Project**.  Leave the remaining fields with the default settings.
+3. Choose **Create Project**.  Leave the remaining fields with the default settings.
 
    ![Screen image the Office.com website with Delia Dennis logged in but no office applications are available, because no license is assigned.](./media/p31.png) 
 
