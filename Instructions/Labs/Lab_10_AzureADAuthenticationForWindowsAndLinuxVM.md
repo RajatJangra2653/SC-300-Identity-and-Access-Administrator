@@ -50,8 +50,8 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
       -  **Select inbound ports:** Ensure port **RDP (3389) (11)** is selected.
       -  Click on **Next Disks > (12)**
   
-    ![Create vm](./media/create-vm-01.png)
-    ![Create vm](./media/create-vm-02.png)
+    ![Create vm](./media/L10E1T1S4.1-1712.png)
+    ![Create vm](./media/L10E1T1S4.2-1712.png)
 
     >**Note:** Ensure to have the Username and password handy over a notepad for quick access. These credentials would be used in the late half of this lab.
 
@@ -70,7 +70,7 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 1. On the **Review + create** tab, review the virtual machine configurations and then click on the **Create** button to initiate the deployment process.
    >**Note:** The deployment of the virtual machine can take upto 3 minutes.
 
-    ![Create vm](./media/create-vm-05.png)
+    ![Create vm](./media/L10E1T1S7-1712.png)
 
 1. Once the deployment is successful, click on **Go to resource** to navigate to the overview page of the newly created virtual machine.
 
@@ -137,9 +137,7 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
      ![start vm](./media/start-vm-3.png)
 
-1. Open the **Downloads** folder in File Manager and click on **Connect**.
-
-1. Open the RDP file that was downloaded and choose to log in as an Alternate User.
+1. Open the downloaded RDP file and click on **Connect**.
 
 1. Use the Admin username and Password you create when setting up the virtual machine.
    - Admin Username: **<inject key="LabVM Admin Username" enableCopy="true" />**
@@ -178,7 +176,7 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 
      ![RDP](./media/rdpfile1.png)
 
-1. Edit the new version of the RDP file you just copied using Notepad.
+1. Right click on new version of the RDP file you just copied and click on **Open with** and select **Notepad** to edit the file.
 
      ![RDP](./media/rdpfile2.png)
 
@@ -207,7 +205,7 @@ In this exercise, you will learn how to access Windows Virtual Machines in Azure
 1. The Remote Desktop session should open; and show the Windows Server login screen with  **Other User** should be displayed.
 
 1. In the login dialog enter the following information:
-   - Username: AzureAD\ **<inject key="AzureAdUserEmail" enableCopy="false" />**
+   - Username: AzureAD\ **<inject key="AzureAdUserEmail" enableCopy="true" />**
    - Password: **<inject key="AzureAdUserPassword"></inject>** 
 
    >**Note:** **<inject key="AzureAdUserEmail" enableCopy="false" />** is the user we granted access to log in as administrator during Task 2.
@@ -224,7 +222,7 @@ The tasks outlined here are intended solely for informational purposes. They are
 
 1. Select **+ Create a resource**.
 
-1. Select on **Create** under **Ubuntu Server 18.04 LTS** in the Popular view.
+1. Select on **Create** under **Ubuntu Server 22.04 LTS** in the Popular view.
 
 1. On the **Management** tab, check the box to enable **Login with Azure Active Directory (Preview)**.
 
