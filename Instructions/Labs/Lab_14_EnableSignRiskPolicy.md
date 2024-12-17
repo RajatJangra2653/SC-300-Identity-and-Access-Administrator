@@ -18,7 +18,10 @@ After completing this lab, you will be able to:
 
 ### Before the Hands-on lab
 
-1. Sign in to the [https://portal.azure.com]( https://portal.azure.com) using a Global administrator account.
+1. Sign in to the [https://portal.azure.com]( https://portal.azure.com) using credentials provided in the rnvironment (Global administrator account).
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 2. Open the portal menu and then search for and select **Microsoft Entra ID**.
 
@@ -38,39 +41,38 @@ After completing this lab, you will be able to:
 
 #### Task 1 - Configure the policy
 
-1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) using a Global administrator account.
+1. Sign in to the [https://entra.microsoft.com](https://entra.microsoft.com) using the credentials provided in the environment (Global administrator account).
 
-2. Open the portal menu and then search for and select **Microsoft Entra ID**.
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-3. In the left navigation menu, under **Identity**, Select **Protection**.
+2. In the left navigation menu, under **Identity (1)**, select **Protection (2)**, and under **Protection** select **Identity protection (3)**.
 
-4. In the left navigation, under **Protection** select **Identity protection**.
+3. In the Identity protection, in the left navigation, select **User risk policy (4)**.
 
-    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/image.png)
+    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/select-identity-protection.png)
 
-5. In the Identity protection, in the left navigation, select **User risk policy**.
+4. Under **Assignments**, select **All users** and review the available options.
 
-    ![Screen image displaying the User risk policy page and highlighted browsing path](./media/Screenshot_leftNav.png)
+5. You can select from **All users** or **Select individuals and groups** if limiting your rollout.
 
-6. Under **Assignments**, select **All users** and review the available options.
+6. Additionally, you can choose to exclude users from the policy.
 
-7. You can select from **All users** or **Select individuals and groups** if limiting your rollout.
+7. Under **User risk**, select **Low and above**.
 
-8. Additionally, you can choose to exclude users from the policy.
+8. In the User risk pane, select **High** and then select **Done**.
 
-9. Under **User risk**, select **Low and above**.
+9. Under **Controls** > **Access**, select **Block access**.
 
-10. In the User risk pane, select **High** and then select **Done**.
-
-11. Under **Controls** > **Access**, select **Block access**.
-
-12. In the Access pane, review the available options.
+10. In the Access pane, review the available options.
 
     **Tip** - Microsoft's recommendation is to Allow access and Require password change.
 
-13. Select the **Require password change** check box and then select **Done**.
+11. Select the **Require password change** check box and then select **Done**.
 
-14. Under **Policy enforcement**, toggle to  **Enabled** and then select **Save**.
+12. Under **Policy enforcement**, toggle to  **Enabled** and then select **Save**.
+
+    ![](./media/user-risk-policy.png)
 
 #### Task 2 - Enable Sign-in risk policy
 
