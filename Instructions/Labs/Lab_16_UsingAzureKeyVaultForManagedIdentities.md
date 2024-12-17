@@ -105,7 +105,7 @@ In this task, you will create an Azure Key Vault by configuring the required set
 
 1. Select **Create**.
 
-1. Once deployment is completed click on **Go to resources**
+1. Once deployment is completed click on **Go to resource**.
 
 1. On **keyvault-<inject key="DeploymentID" enableCopy="false"/>** page copy the url and paste that URL in notepad you need this value in further tasks.
 
@@ -153,9 +153,11 @@ In this task, you will create a secret in your Key Vault by specifying the name 
 In this task, you will grant access to your Key Vault by creating an access policy, assigning secret management permissions, and selecting the appropriate VM as the principal.
 
 1. On the **keyvault-<inject key="DeploymentID" enableCopy="false"/> | Secrets**, from the left-hand navigation pane, select **Access policies** and click on **+ Create**.
+   
    ![](./media/lab16-8.png)
 
 1. On the **Create an access policy**, under Configure from template, choose **Secret Management (1)** from the drop-down. Select **Next (2)**.
+   
    ![](./media/lab16-(9).png)
    
 1. On the **Principal** page, in the search field enter the name **VM-<inject key="DeploymentID" enableCopy="false"/> (1)**, and select it. Select **Next (2)**.
