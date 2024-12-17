@@ -43,11 +43,11 @@ Building out resources in Entitlement Management involves defining and structuri
       | **Option**                          | **Value**                               |
       | ----------------------------------- | --------------------------------------- |
       | **Name**                            | **Marketing**.                     |
-      | **Description**                     | Enter **For marketing department users**.                 |
+      | **Description**                     | Enter **For marketing department users**.|
       | **Enabled**                         | **No**. |
-      |||
    
-      ![Screen image displaying the Identity governance catalog page with the New catalog menu highlighted ](./media/lab22-4-(1).png)
+
+   ![Screen image displaying the Identity governance catalog page with the New catalog menu highlighted ](./media/lab22-4-(1).png)
 
 1. You may choose to enable the catalog for immediate use or disable if you intend to stage it or keep it unavailable until you intend to use it. For this exercise, the catalog does not need to be enabled.
 
@@ -142,7 +142,8 @@ The user that created a catalog becomes the first catalog owner. To delegate man
 1. If necessary, in the Azure portal, browse to **Microsoft Entra ID**, from the left-hand navigation pane, select **Identity Governance** and select **Catalogs** and then select **Marketing**.
 
 2. In the Marketing catalog page, from the left-hand navigation pane, select **Roles and administrators (1)**, select **+ Add catalog owner (2)** and Select members pane opens, select your **Adele Vance** and then select **Select**.
-  ![](./media/lab22-9.png)
+   
+   ![](./media/lab22-9.png)
 
 5. Review the newly added role in the Roles and administrators list.
 
@@ -175,7 +176,8 @@ You can edit the name and description for a catalog. Users see this information 
     | **Review scope** | select **All Microsoft 365 groups with guest users** |
     | **Scope** | **Guest users only** |
     |||
-    ![](./media/lab22-12.png)
+
+   ![](./media/lab22-12.png)
 
 1. The next tile is where you configure who reviews and approves access, how often access will be reviewed, and when access will expire.
 
