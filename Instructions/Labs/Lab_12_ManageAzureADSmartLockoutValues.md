@@ -52,6 +52,8 @@ Based on your organizational requirements, you can customize the Microsoft Entra
 
 1. This can be tested by using your Entra ID credentials, Open a private browser and navigate to <login.microsoftonline.com> and enter an incorrect password until the account gets notification that it is locked out.
 
+   ![](./media/temp.png)
+
 ## Review
 In this lab, you have completed:
 - Added Smart Lockouts.
