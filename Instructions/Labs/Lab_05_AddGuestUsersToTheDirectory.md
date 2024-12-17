@@ -101,7 +101,7 @@ A recent partnership has been established with another company. For now, employe
 
 ### Task 2 - Invite guest users with PowerShell
 
-1. Open PowerShell as an administrator.  This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
+1. Open PowerShell as an administrator. This can be done by searching for PowerShell in Windows and choosing Run as administrator. 
 
 1. You will need to Install the Microsoft.Graph PowerShell module if you have not used it before. Run the following two commands and when prompted to confirm press Y:
 

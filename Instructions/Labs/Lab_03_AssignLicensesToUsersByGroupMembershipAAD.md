@@ -92,7 +92,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 ### Task 3 - Assign a license to a group
 
-1. To assign the license please go to [https://admin.microsoft.com/Adminportal/Home?referrer=entra#/licenses](url)
+1. To assign the license please go to [http://admin.microsoft.com/](url)
 
 2. In the Licenses page, select **Office 365 E3 (no Teams)**.
   
