@@ -24,11 +24,13 @@ In this lab, you will complete the following tasks:
     - The following credentials provided has the required Global Administrator role. These credentials can also be found in the Environment details tab.
     - Email/Username: <inject key="AzureAdUserEmail"></inject>
     - Password: <inject key="AzureAdUserPassword"></inject>
+    
 
 1. To understand the functionality of the Cloud app catalog, execute the following steps:
-    - On the left menu, scroll to the heading named **Cloud Apps** and click **Cloud App Catalog (1)**.
+    - On the left menu, scroll to the heading named **Cloud apps** and click **Cloud app catalog (1)**.
     - In **Browse by category** pane, search for and select **Cloud storage (2)**.
-    - In the list of apps, note the **Risk scores (3)** next to the app name.  
+    - In the list of apps, note the **Risk scores (3)** next to the app name.
+      
 
     ![](./media/sc-300-lab17-2.png)
 
@@ -38,7 +40,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 2: Restrict Apps in Defender for Cloud Apps
 
-1. Return to the **Discovered apps** tile and select the **Tag as unsanctioned** for Dropbox.
+1. Return to the **Discovered apps** tile, search for and select **Dropbox**. Select the **Tag as unsanctioned** for Dropbox.
 
     ![](./media/sc-300-lab17-1.png)
 
