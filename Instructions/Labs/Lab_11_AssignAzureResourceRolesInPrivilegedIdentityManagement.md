@@ -29,16 +29,22 @@ Using Privileged Identity Management (PIM) with Azure resources enables just-in-
 
 #### Task 1 - Assign Azure resource roles
 
-1. In **Search resources, services, and docs** search for and then select **Microsoft Entra Privileged Identity Management**.
+1. Sign in to [https://entra.microsoft.com](https://entra.microsoft.com) using a credentials provided in the environment. (The account provided have Global Administrator privilages)
 
-   ![Screen image displaying the Azure resources discovery page with the subscription and manage resource highlighted](./media/lab11-1.png)
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-1. on the **Privileged Identity Management | Quick start** page, from the left-hand navigation pane, under **Manage** section, select **Azure resources (1)**.
+1. Search for and then select **Microsoft Entra Privilaged Identity Management.**
+
+   ![](./media/search_pim.png)
+
+1. In the **Privileged Identity Management | Quick start** page, from the left-hand navigation pane, under **Manage** section, select **Azure resources (1)**.
+
    ![](./media/lab11-2.png)
 
 1. In the Azure resources – Discovery page, select your **subscription (1)** and then select **Manage resource (2)**.
 
-   ![](./media/g78.png)
+   ![](./media/L11E1T1S3-1712.png)
 
 1. From the left-hand navigation menu, under **Manage**, select **Roles** to see the list of roles for Azure resources and on the top menu, select + **Add assignments**.
 
@@ -86,13 +92,13 @@ Follow these steps to update or remove an existing role assignment.
 
    ![](./media/lab11-9.png)
 
-6. On the **Eligible assignments** tab, in the Action column, review the available options, and select it.
+6. On the **Eligible assignments** tab, in the Action column, review the available options, and select **Remove**.
 
-7. Select **Remove**
-   
-   ![](./media/lab11-10.png)
+   ![](./media/remove-assignment.png)
 
 8. In the Remove dialog box, review the information and then select **Yes**.
+
+   ![](./media/remove-assignment2.png)
 
 ### Review
 In this lab, you have completed:

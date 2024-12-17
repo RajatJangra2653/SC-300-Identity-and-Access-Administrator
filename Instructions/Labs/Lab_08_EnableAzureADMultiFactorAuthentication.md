@@ -26,9 +26,15 @@ After completing this lab, you will be able to complete the following exercises:
 
 ### Task 1 - Review Azure Multi-Factor Authentication options
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **multi-factor**, and then select **Multi-Factor Authentication (2)** under services.
+1. Browse to the [https://entra.microsoft.com](https://entra.microsoft.com) and sign in using the credentials provided in the environment. (Global administrator privilages are provided for this account)
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
     ![](./media/lab08-sc300-1.png)
+
+1. On the search feature type **multifactor**, and in the search results select **Multifactor authentication**.
+Alternatively, you can open **Identity**, then select **Protection**, and select **Multifactor authentication**.
 
 1. On the **Multi-Factor Authentication | Getting started** page, under **Configure**, select **Additional cloud-based MFA settings**.
 
@@ -36,7 +42,7 @@ After completing this lab, you will be able to complete the following exercises:
 
 1. In the new browser page, you can see the MFA options for Azure users and service settings.
 
-    ![Screenshot showing MFA configuration](./media/mfa-settings.png)
+    ![Screenshot showing MFA configuration](./media/L8T1S4-1712.png)
 
 1. This is where you would select the supported authentication methods, in the screen above, all of them are selected.
 
@@ -46,19 +52,9 @@ After completing this lab, you will be able to complete the following exercises:
 
 Next, let's examine how to set up Conditional Access policy rules that would enforce MFA for guest users accessing specific apps on your network.
 
-1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Entra ID (1)**, and then select **Microsoft Entra ID (2)** under services.
+1. Switch back to the Microsoft Entra admin center and select **Identity (1)**, then **Protection (2)**, and then **Conditional access (3)**. Click on **+ Create new policy (4)**.
 
-    ![](./media/lab08-sc300-3.png)
-
-1. On the **Overview** page, under the **Manage** section select **Security**.
-
-1. On the **Security | Getting started** page, from left navigation pane under **Protect** section, **Conditional Access**.
-
-    ![](./media/lab08-sc300-4.png)
-   
-1. From the menu, click on **+ Create new policy**.
-   
-    ![](./media/lab08-sc300-5.png)
+    ![](./media/L8E1T2S1-1712.png)
 
 1. If you encounter following error, click on **Disable security policy**, on **Security default** specify the following:
 
@@ -91,22 +87,22 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
 1. Under **Target Resources** click on **No target resources selected**
 
-   - In the dropdown, make sure **Cloud apps** is selected.
-   - Under Include, mark **All cloud apps** and note the warning the pops up about possibly locking yourself out.
+   - In the dropdown, make sure **Resources (formerly cloud apps)** is selected.
+   - Under Include, mark **All resources (formerly All cloud apps)** and note the warning the pops up about possibly locking yourself out.
 
-      ![](./media/lab08-sc300-9.png)
+      ![](./media/L8E1T2S7.png)
 
-   - Now under Include, change your choice to **Select apps** item and then under Select click on **None**.
+   - Now under Include, change your choice to **Select resources** item and then under Select click on **None**.
    - In the newly opened dialog, choose **Office 365**.
    - Choose **Select**.
 
 1. Review the Conditions section.
 
-   - Under **Conditions** click on **0 conditions selected** then under **Locations** click on **Not Configured** and then under  **Configure** toggle  it to **Yes**  and ensure that under **Include** ,**Any network or location** is selected.
+   - Under **Conditions** click on **0 conditions selected** then under **Locations** click on **Not Configured** and then under  **Configure** toggle  it to **Yes (1)**  and ensure that under **Include** ,**Any network or location (2)** is selected.
 
       ![Screenshot highlighting the New Policy button in the Azure portal](./media/cap-conditions.png)
 
-1. Under **Access Controls** click on  **0 controls selected** and verify **Grant access** is selected.
+1. Under **Access Controls**, find the **Grant** section and click on **0 controls selected** and verify **Grant access** is selected.
 
 1. Select the **Require multi-factor authentication** check box to enforce MFA.
 
@@ -136,7 +132,10 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
     - To get the username for **Delia** follow the below steps:
   
-    - In Azure portal search and select **Microsoft Entra ID** and from left navigation pane under **Manage** section and select **Users** then choose **Delia Dennis**.
+    - In **Microsoft Entra admin center** and from left navigation pane under go to **Identity**, and click on **All users** under **Users** then choose **Delia Dennis**.
+
+      ![](./media/search-delia.png)
+
     - On the **Delia Dennis** user blade, copy the **User principal name** record in notepad.
 
       ![](./media/lab08-sc300-11.png)
@@ -170,29 +169,29 @@ Next, let's examine how to set up Conditional Access policy rules that would enf
 
 Finally, let's look at how to configure MFA for user accounts. This is another way to get to the multi-factor auth settings.
 
-1. Switch back to the **Microsoft Entra ID** dashboard in the Azure portal.
+1. Switch back to the Microsoft Entra admin center and find the Indentity left-hand navigation menu.
 
-1. Select **Users**.
+1. Select **Users**, then select **All users**.
 
 1. At the top of the Users pane, select **Per-user MFA**.
 
+    >**NOTE:** you may have to use the elipsis (...) to get to the Per-user MFA menu item.
+
    ![](./media/lab08-sc300-16.png)
 
-1. A new browser tab/window will open with a multi-factor authentication user settings dialog.
+1. Select **Alex Wilber (1)** with a check-mark. Select the **Enable (2)** option under quick steps.
 
-1. Select **Alex Wilber** with a check-mark. Select the **Enable** option under quick steps.
-
-   ![](./media/lab08-sc300-17.png)
+   ![](./media/L8E2T2S4-1712.png)
    
-1. Read the notification popup if you get it, then select **enable multi-factor auth** button.
+1. Read the **Enable multifactor authentication** notification popup, then select **Enable** button.
     
-    ![](./media/lab08-sc300-18.png)
+    ![](./media/L8E2T2S5-1712.png)
 
 1. Select **Close**.
 
 1. Notice that Alex now has **Enabled** as her MFA status.
 
-   ![](./media/lab08-sc300-19.png)
+   ![](./media/L8E2T2S7-1712.png)
 
 1. Close the MFA setting tab.
 
