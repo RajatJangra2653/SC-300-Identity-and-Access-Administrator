@@ -49,7 +49,7 @@ Registering your application establishes a trust relationship between your app a
 
 The Global Administrator role is required in order to provide admin consent for application permissions to the Microsoft Graph API.
 
-1. In Microsoft Azure, browse to **Microsoft Entra ID**, then select **App registrations**, and then select **Demo app** under **All Applications tab**.
+1. In Microsoft Azure, browse to **Microsoft Entra ID**, then select **App registrations**, and then select **Demo app** under **All Applications** tab.
 
 2. On the **Demo app** page, locate and copy and save each **Application (client) ID** and **Directory (tenant) ID** values so that you can use them later.
 

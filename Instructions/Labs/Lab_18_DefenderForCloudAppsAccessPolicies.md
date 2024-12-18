@@ -76,7 +76,7 @@ In this task, you will configure Microsoft Entra ID to work with Defender for Cl
 
 6. Under **Users**, select **0 users and groups selected**, under **Include**, select **Select users and groups**, and select **Users and groups**. Choose **Pradeep Gupta** account for the lab tenant and select **Select**.
 
-8. Under Target resources, select **No target resources selected**, under **Include**, select **Select apps**, under **Select** choose **None**, and then choose **Microsoft Forms**, and select **Select**. 
+8. Under Target resources, select **No target resources selected**, under **Include**, select **All resources (formerly 'All cloud apps')**. 
 
 9. Under **Access controls**, under **Session**, select **0 controls selected**.
 
