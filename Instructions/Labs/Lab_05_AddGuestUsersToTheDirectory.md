@@ -64,7 +64,7 @@ A recent partnership has been established with another company. For now, employe
 
 3. On the Users page, on the menu, select **Bulk operations > Bulk invite**.
 
-     ![Screen image displaying the All user page with the Bulk operations and Bulk invite menu options highlighted](./media/bkinv.png)
+     ![Screen image displaying the All user page with the Bulk operations and Bulk invite menu options highlighted](./media/L5E2T1S2.png)
 
 4. In the Bulk invite users pane, select **Download** to a sample CSV template with invitation properties.
 

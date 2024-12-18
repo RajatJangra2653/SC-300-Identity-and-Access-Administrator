@@ -139,10 +139,10 @@ Once you have finalized your terms of use document, use the following procedure 
 
 12. In order to implement terms of use over a specific app for the user, execute the following configurations while creating the conditional access policy:
     - Under the **Target resources** section, click on **No target resources selected (1)**.
-    - Ensure to have **Cloud apps (2)** option selected from the dropdown list.
-    - Within the **Include** tab, choose the **All cloud apps (3)** radio button.
+    - Ensure to have **Resources(formerly Cloud apps) (2)** option selected from the dropdown list.
+    - Within the **Include** tab, choose the **All resources (formerly All cloud apps) (3)** radio button.
 
-       ![](./media/lab23-6.png)
+       ![](./media/L23T1S12.png)
 
 13. To provide control access enforcement to block or grant access, perform the following:
     - Under **Access controls**, select **0 controls selected (1)**.

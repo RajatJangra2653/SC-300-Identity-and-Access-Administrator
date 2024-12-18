@@ -28,7 +28,7 @@ In this task ,you will access and review the settings for the Compliance Adminis
 
 1. In the Azure portal, search for and  select **Microsoft Entra ID Privileged Identity Management.**
 
-1. In the Privileged Identity Management page, in the left navigation, select **Microsoft Entra ID roles** under **Manage** option.
+1. In the Privileged Identity Management page, in the left navigation, select **Microsoft Entra roles** under **Manage** option.
 
 1. On the Quick start page, in the left navigation, select **Settings (1)** under **Manage** option.
   
@@ -70,7 +70,7 @@ Follow these steps to make a user eligible for an Azure AD admin role.
 
 1. Search for and then select **Microsoft Entra ID Privileged Identity Management.**
 
-2. In the Privileged Identity Management page, in the left navigation, select **Microsoft Entra ID roles.**
+2. In the Privileged Identity Management page, in the left navigation, select **Microsoft Entra roles.**
 
 3. On the Quick start page, in the left navigation, under Manage select **Roles (1)**.
 
@@ -129,7 +129,7 @@ In this task, you will log in to the Azure Portal as Miriam Graham, reset her pa
 
 5. Close the **Welcome to Microsoft Azure dialog**.
 
-6. From the **Search resource, services, and docs** bar look for Microsoft Entra ID, and open the page.
+6. From the **Search resource, services, and docs** bar look for **Microsoft Entra ID**, and open the page.
 
 7. On the **Overview** page, look for the **My feed**.
 

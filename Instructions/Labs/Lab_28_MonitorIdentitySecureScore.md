@@ -73,9 +73,9 @@ In this task, you will execute an improvement action by enabling Microsoft Entra
 
    ![](./media/new-lab28-6.png)
 
-1. Under Target resources, select **No target resources selected (1)** > **Cloud apps (2)** > under **Include (3)**, select **All cloud apps (4)**.
+1. Under Target resources, select **No target resources selected (1)** > **Resources(Formerly Cloud apps) (2)** > under **Include**, select **All Resources(formerly All cloud apps) (3)**.
 
-   ![](./media/new-lab28-7.png)
+   ![](./media/L28T2S8.png)
 
 1. Under Conditions select **0 conditions selected (1)** > under **Client apps** select **Not configured (2)**, set **Configure** to **Yes (3)**. Check only the boxes **Exchange ActiveSync clients** and **Other clients (4)**. Select **Done (5)**.
 
