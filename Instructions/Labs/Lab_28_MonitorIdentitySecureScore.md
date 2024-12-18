@@ -16,8 +16,6 @@ In this lab, you will complete the following tasks:
 
 ## Estimated time: 15 minutes
 
-## Architecture diagram
-
 ## Exercise 1 - Using Identity Secure Score to monitor and manage identity security posture
 
 ### Task 1 - Review Identity Secure Score and improvement actions
