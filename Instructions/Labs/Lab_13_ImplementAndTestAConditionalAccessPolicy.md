@@ -4,11 +4,11 @@
 
 Your organization needs to be able to limit user access to its internal applications. You must deploy the Microsoft Entra ID conditional access policy.
 
-**Note** - For Conditional Access Policies, you can turn off Security Defaults, the key points to remember are from the training.  Additional information on Security defaults can be found at this link: <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults>
+>**Note** - For Conditional Access Policies, you can turn off Security Defaults, the key points to remember are from the training.  Additional information on Security defaults can be found at this link: <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults>
 
 ## Lab objectives
 
-After completing this lab, you will be able to complete the following exercises:
+In this lab, you will complete the following tasks:
 
 - Exercise 1 - Set a conditional access policy to block an user from accessing Sway
 - Exercise 2: Test conditional access policies with "What if"
@@ -45,8 +45,8 @@ In this task, you will try to access Microsoft Sway website.
 
 ### Task 2: Create a conditional access policy
 
- Microsoft Entra ID conditional access is an advanced feature of  Microsoft Entra ID that allows you to specify detailed policies that control who can access your resources. Using Conditional Access, you can protect your applications by limiting users' access based on things like groups, device type, location, and role.
-
+In this task, you'll configure Microsoft Entra ID Conditional Access policies to control access to your resources. You'll specify detailed conditions such as groups, device types, locations, and user roles to protect applications and ensure secure access management.
+ 
 1. Connect to https://entra.microsoft.com/.
 
 2. When prompted, log in with the following credentials which are also provided in the Environment details page:
@@ -127,7 +127,7 @@ In this task, you will try to access Microsoft Sway website.
 
 ### Task 3: Test the conditional access policy
 
-You should test your conditional access policies to ensure they working as expected.
+In this task, you'll test your Conditional Access policies to ensure they are working as expected. This will involve verifying that the policies correctly enforce access restrictions based on the specified conditions, such as user roles, device types, and locations.
 
 1. Open a new 'Inprivate' browser tab and then browse to [https://sway.office.com](https://sway.office.com)
     
@@ -158,9 +158,11 @@ You should test your conditional access policies to ensure they working as expec
 
 ## Exercise 2: Test conditional access policies with "What if"
 
-The "What if" feature in Microsoft Entra ID's conditional access policies is a powerful tool for assessing the potential impact of your access control policies without actually enforcing them.
+In this exercise, you'll use the "What if" feature in Microsoft Entra ID's Conditional Access policies to assess the potential impact of your access control policies. This will allow you to simulate how the policies would apply to specific users or scenarios without enforcing them.
 
 ### Task 1: Use What if to test conditional access policies
+
+ In this task, you'll test conditional access policies
 
 1. In the **Conditional Access** window in the Microsoft Entra Admin Center,in the navigation pane, select **Policies (1)** and then click on **What if (2)**.
 
@@ -196,11 +198,11 @@ The "What if" feature in Microsoft Entra ID's conditional access policies is a p
 
 ## Exercise 3: Configure sign in frequency controls using a conditional access policy
 
- Configuring sign-in frequency controls using a conditional access policy in Azure can help you manage and enforce specific restrictions on how often users can sign in.
+In this exercise, you'll configure sign-in frequency controls using a Conditional Access policy in Azure to manage and enforce restrictions on how often users can sign in.
 
 ### Task 1: Use the Microsoft Admin center to configure conditional access
 
-As part of your company's larger security configuration, you must test a conditional access policy that can be used to control sign-in frequency.
+In this task, you'll use the Microsoft Admin Center to configure Conditional Access policies, enabling you to control access to resources based on specific conditions like user roles, device compliance, and location.As part of your company's larger security configuration, you must test a conditional access policy that can be used to control sign-in frequency.
 
 1. In the Entra ID page,in the **Conditional Access** window,on the **Overview** page, click **+ Create new policy**.
 

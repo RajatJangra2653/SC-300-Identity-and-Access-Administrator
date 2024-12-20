@@ -18,13 +18,13 @@ In this lab, you will complete the following tasks:
 
    ![](./media/arch-09.png)
 
-## Exercise 1 - Create a group with SSPR enabled and add users to it
+# Exercise 1 - Create a group with SSPR enabled and add users to it
 
-You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
+In this lab, you'll create a group with SSPR enabled and add users to it, configure SSPR for the group, and register Alex for SSPR. You'll then test the SSPR functionality and observe the behavior when attempting to use SSPR with a user who is not part of the SSPRTesters group.
 
 ### Task 1 - Create a group with SSPR enabled and add users to it
 
-You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
+In this task, you will roll out SSPR to a limited set of users to ensure the configuration works as expected. You'll create a security group for the limited rollout and add a user to the group for testing.
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Entra ID (1)**, and then select **Microsoft Entra ID (2)** under services.
 
@@ -65,6 +65,8 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 ### Task 2 - Enable SSPR for the group
 
+ In this task, you will enable Self-Service Password Reset (SSPR) for the security group you created, allowing the users in the group to use the SSPR feature for password resets.
+
 1. Browse back to the Microsoft Entra ID page.
 
 1. Under **Manage**, select **Password reset**.
@@ -91,7 +93,7 @@ You want to roll out SSPR to a limited set of users first to make sure your SSPR
 
 ### Taks 3 - Register for SSPR with Alex
 
-Now that the SSPR configuration is complete, register a mobile phone number for the user you created.
+In this task, you will register a mobile phone number for the user you created, enabling them to use SMS for password reset through the Self-Service Password Reset (SSPR) functionality.
 
 1. Open an InPrivate browser session and then browse to [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup).
 
@@ -121,7 +123,7 @@ Now that the SSPR configuration is complete, register a mobile phone number for 
 
 ### Task 4 - Test SSPR
 
-Now let's test whether the user can reset their password.
+In this task, you will test the Self-Service Password Reset (SSPR) functionality to ensure it works as expected, verifying that the user can successfully reset their password using the configured methods.
 
 1. Open an InPrivate browser session and then browse to [https://portal.azure.com](https://portal.azure.com).
 
@@ -159,6 +161,8 @@ Now let's test whether the user can reset their password.
 12. When finished, close your browser.
 
 ### Task 5 - What happens if you try a user not in SSPRTesters group?
+
+In this task, you will test the behavior when attempting to use Self-Service Password Reset (SSPR) for a user who is not in the SSPRTesters group. You will observe that the user will not be able to access SSPR features as they are not part of the group enabled for SSPR.
 
 1. As a test, open a new InPrivate browser window, and browse to [https://portal.azure.com](https://portal.azure.com).
 
