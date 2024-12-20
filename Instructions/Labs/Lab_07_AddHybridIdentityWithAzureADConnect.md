@@ -10,6 +10,8 @@ Your company works has Active Directory Domain Services on-premises.  They would
 
 ### Exercise 1 - Setup On-Premises infrastructure
 
+In this Exercise, you'll set up the on-premises Active Directory infrastructure by creating and configuring the lab environment Azure VMs, restarting them, and setting up the contoso.local Active Directory.
+
 #### Task 1 - Create the on-premises Active Directory infrastructure
 
 1. Deployment template can be accessed at this link: [On-Premises Test Lab Guide](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm).
@@ -190,6 +192,8 @@ Your company works has Active Directory Domain Services on-premises.  They would
 
 ## Exercise 2: Integrate an Active Directory forest with an Azure Active Directory tenant
 
+In this exercise, you'll integrate an on-premises Active Directory forest with an Azure Active Directory tenant. This includes creating an Azure AD tenant, activating an EMS E5 trial, configuring an Azure AD user for administration, and setting up the DNS suffix in the Contoso AD forest. You'll also install Microsoft Entra ID Connect, enable the Active Directory Recycle Bin, initiate and verify directory synchronization, and configure Hybrid Azure AD join before performing the join itself.
+
 ### Task 1: Create an Azure Active Directory tenant and activate an EMS E5 trial
 
 In this task, you will create an Azure Active Directory tenant with the following settings: 
@@ -279,7 +283,7 @@ Configuration tab:
     > **Note**: Copy the **User name** and **Password** values into Notepad. You will need them later in this lab.
 
 
-### Task 5: Configure DNS suffix in the Contoso Active Directory forest
+### Task 3: Configure DNS suffix in the Contoso Active Directory forest
 
 In this task, you will configure the DNS suffix of the Contoso Active Directory forest to match the newly verified Azure AD custom domain name.
 
@@ -313,7 +317,7 @@ In this task, you will configure the DNS suffix of the Contoso Active Directory 
     }
     ```
 
-### Task 6: Install Microsoft Entra ID Connect
+### Task 4: Install Microsoft Entra ID Connect
 
 In this task, you will install Microsoft Entra Connect.
 
@@ -389,7 +393,7 @@ In this task, you will install Microsoft Entra Connect.
 26. On the **Configuration complete** page, select **Exit**.
 
 
-### Task 7: Enable Active Directory Recycle Bin
+### Task 5: Enable Active Directory Recycle Bin
 
 In this task, you will enable Recycle Bin in the Contoso Active Directory domain. 
 
@@ -403,7 +407,7 @@ In this task, you will enable Recycle Bin in the Contoso Active Directory domain
 
    > **Note**: For information regarding benefits of the Recycle Bin in hybrid scenarios, refer to <https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-recycle-bin>
 
-### Task 8: Configure Azure AD Connect attribute-level filtering
+### Task 6: Configure Azure AD Connect attribute-level filtering
 
 In this task, you will configure Azure AD Connect attribute level filtering that will limit synchronization of user accounts to those with the UPN suffix matching the custom domain name of the target Azure AD tenant.
 
@@ -501,7 +505,7 @@ In this task, you will configure Azure AD Connect attribute level filtering that
 
     >**Note**: This should bring you back to the **View and manage your synchronization rules** interface, with the new rules listed at the top of the rule list. 
 
-### Task 9: Initiate and verify directory synchronization
+### Task 7: Initiate and verify directory synchronization
 
 1. Within the Remote Desktop session to **DC1**, double-Select the **Azure AD Connect** desktop shortcut.
 
@@ -545,7 +549,7 @@ In this task, you will configure Azure AD Connect attribute level filtering that
 
    > **Note**: In a production environment, you would install additional agents for redundancy. For more information, refer to <https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-pta-quick-start>.
 
-### Task 10: Configure Hybrid Azure AD join
+### Task 8: Configure Hybrid Azure AD join
 
 In this task, you will configure Azure AD Connect device synchronization options.
 
@@ -576,7 +580,7 @@ In this task, you will configure Azure AD Connect device synchronization options
 12. On the **Configuration complete** page verify that the task completed successfully and select **Exit**.
 
 
-### Task 11: Perform Hybrid Azure AD join
+### Task 9: Perform Hybrid Azure AD join
 
 1. On the lab computer, in the Azure portal, verify that you are signed into the Azure AD tenant associated with the Azure subscription into which you deployed resources in the Before Hands-On Lab exercises (the **Default directory**). If not, select the **Directory + Subscription** icon in the toolbar of the Azure portal (to the right of the **Cloud Shell** icon) to switch to that Azure AD tenant. 
 
