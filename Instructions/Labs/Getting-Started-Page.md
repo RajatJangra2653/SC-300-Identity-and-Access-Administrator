@@ -4,9 +4,9 @@ Welcome to your SC-300: Microsoft Identity and Access Administrator  workshop! W
  
 ## **Accessing Your Lab Environment**
  
-Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **lab guide** will be right at your fingertips within your web browser.
  
-![Access Your VM and Lab Guide](./media/gs1.1.png)
+![Access Your VM and Lab Guide](./media/gs11.png)
 
 # **Virtual Machine & Lab Guide**
  
