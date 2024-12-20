@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 ## Exercise 1 - Create a group with SSPR enabled and add users to it
 
-You want to roll out SSPR to a limited set of users first to make sure your SSPR configuration works as expected. Let's create a security group for the limited rollout and add a user to the group.
+In this lab, you'll create a group with SSPR enabled and add users to it, configure SSPR for the group, and register Alex for SSPR. You'll then test the SSPR functionality and observe the behavior when attempting to use SSPR with a user who is not part of the SSPRTesters group.
 
 ### Task 1 - Create a group with SSPR enabled and add users to it
 
