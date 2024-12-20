@@ -18,7 +18,7 @@ In this lab, you will complete the following tasks:
 
    ![](./media/arch-09.png)
 
-## Exercise 1 - Create a group with SSPR enabled and add users to it
+# Exercise 1 - Create a group with SSPR enabled and add users to it
 
 In this lab, you'll create a group with SSPR enabled and add users to it, configure SSPR for the group, and register Alex for SSPR. You'll then test the SSPR functionality and observe the behavior when attempting to use SSPR with a user who is not part of the SSPRTesters group.
 
