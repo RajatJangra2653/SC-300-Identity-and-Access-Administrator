@@ -7,7 +7,7 @@ You must configure the additional password protection settings for your organiza
 ## Lab objectives
 In this lab, you will complete the following tasks:
 
-- Task 1 - Add Smart Lockouts
+- Exercise 1 - Task 1 - Add Smart Lockouts
 
 ## Estimated time: 15 minutes
 
@@ -16,6 +16,8 @@ In this lab, you will complete the following tasks:
 ![Create resource](./media/lab12-arch.PNG)
 
 ## Exercise 1: Manage Microsoft Entra ID smart lockout values
+
+In this lab, you will manage Microsoft Entra ID smart lockout values by configuring and adding smart lockouts. This will help protect accounts by preventing excessive sign-in attempts and automatically locking out users after a defined threshold of failed login attempts.
 
 ### Task 1: Add Smart Lockouts
 
