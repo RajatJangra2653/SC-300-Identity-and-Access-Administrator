@@ -192,6 +192,8 @@ In this Exercise, you'll set up the on-premises Active Directory infrastructure 
 
 ## Exercise 2: Integrate an Active Directory forest with an Azure Active Directory tenant
 
+In this exercise, you'll integrate an on-premises Active Directory forest with an Azure Active Directory tenant. This includes creating an Azure AD tenant, activating an EMS E5 trial, configuring an Azure AD user for administration, and setting up the DNS suffix in the Contoso AD forest. You'll also install Microsoft Entra ID Connect, enable the Active Directory Recycle Bin, initiate and verify directory synchronization, and configure Hybrid Azure AD join before performing the join itself.
+
 ### Task 1: Create an Azure Active Directory tenant and activate an EMS E5 trial
 
 In this task, you will create an Azure Active Directory tenant with the following settings: 
