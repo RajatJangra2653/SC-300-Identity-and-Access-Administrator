@@ -7,17 +7,21 @@ Your company works with many vendors and, on occasion, you need to add some vend
 
 ## Lab Objectives
 
-After completing this lab, you will be able to:
+In this lab, you will complete the following tasks:
+
 - Exercise 1 - Configure identity providers
 - Exercise 2 - Configure Azure to work with an External identity provider
+  
+
+## Estimated time: 25 minutes
 
 ## Architecture Diagram
 
 ![Screen image displaying the New Group page with Group type, Group name, Owners, and Members highlighted](./media/arch06.png)
 
-## Estimated time: 25 minutes
+# Exercise 1 - Configure identity providers
 
-### Exercise 1 - Configure identity providers
+In this exercise, you'll configure Google as an identity provider, set it up for authentication, and add a test user to verify the integration and functionality.
 
 ### Task 1 - Configure Google to be used as an identity provider
 
@@ -104,6 +108,8 @@ After completing this lab, you will be able to:
 
 ## Exercise 2 - Configure Azure to work with an External identity provider
 
+In this exercise, you'll configure Azure to work with an external identity provider by setting up Microsoft Entra ID for Google federation. You'll invite a test user account, accept the invitation, and log in to Microsoft 365 using your Google account to verify the integration.
+
 ### Task 1 - Configure Microsoft Entra ID for Google federation
 
 1. Navigate back to the Azure Portal.
@@ -150,6 +156,7 @@ This completes the configuration of Google as an identity provider.
      <validation step="7cf29cba-eb1e-4f7d-b267-186788edd5f7" />
 
 ### Task 3 - Accept the invitation and login
+
 1. Open an InPrivate browser to log into your gmail account.
 
 2. Open the **Microsoft Invitation on behalf of** in the Inbox.
@@ -169,6 +176,7 @@ This completes the configuration of Google as an identity provider.
 7. Once login is complete, **My Apps** page will display.
 
 ### Task 4 - Login to Microsoft 365 using your Google account
+
 1. Once you have finished the external user invite process of Task 3, you can log directly into Microsoft Online.
 
 2. Open a new tab in the browser you have open.
