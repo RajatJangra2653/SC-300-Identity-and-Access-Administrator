@@ -70,7 +70,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. Click on **Refresh** to view the Microsoft Entra ID Data Connector.
 
-   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/sc-300-cp-3.png)
+   ![](./media/sc-300-cp-3.png)
 
    >**Note:** You can ignore the warning that appears.
 
@@ -80,7 +80,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. In the connector page, the instructions and next steps will be provided for the data connector. Verify that a check-mark is next to each of the **Prerequisites** to continue with the **Configuration**.
 
-   ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/sc-300-cp-4.png)
+   ![](./media/sc-300-cp-4.png)
 
 1. Under **Configuration**, check the boxes for **Sign-in logs** and **Audit logs**. Additional log sources are available but are currently in **Preview** and out of scope for this course and click on **Apply Changes**. 
 
