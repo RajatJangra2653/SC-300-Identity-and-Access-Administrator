@@ -37,15 +37,6 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. Select **Review + Create** and then **Create** and while until the deployment completes.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-   <validation step="4e426e86-3c79-41e6-b8e8-1c53996176e3" />
-
-### Task 2 - Add Microsoft Entra ID as a Data source
-
 1. Now, in the Azure portal, navigate to Microsoft Sentinel resource.
 
    ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/sc-300-cp1.png)
@@ -57,6 +48,15 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
    ![Screen image displaying the Azure AD roles page with the Settings menu highlighted](./media/sc-300-cp-2.png)
 
 1. If prompted, select **OK** to activate the Microsoft Sentinel free trial.
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="4e426e86-3c79-41e6-b8e8-1c53996176e3" />
+
+### Task 2 - Add Microsoft Entra ID as a Data source
 
 1. In **Microsoft Sentinel**, from the left-hand navigate menu under the **Configuration** section, select **Data connectors**.
 
