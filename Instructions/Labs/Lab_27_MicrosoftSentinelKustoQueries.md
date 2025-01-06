@@ -108,8 +108,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
    ![](./media/audit.png)
 
-1. This will provide a list of User IDs on Microsoft Entra ID. Since we have just created the workspace, you may not see results. Note the format of the query.
-
+1. This will generate a list of User IDs from Microsoft Entra ID. As the workspace has just been created, you may not see any results yet. Please take note of the query format.
 
 ## Review
 
