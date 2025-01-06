@@ -35,7 +35,7 @@ Configuring Microsoft Sentinel for Kusto Queries enables advanced log and securi
 
 1. Select Region as **<inject key="Region" enableCopy="false"/>**.
 
-1. Select **Review + Create** and then **Create**.
+1. Select **Review + Create** and then **Create** and while until the deployment completes.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
