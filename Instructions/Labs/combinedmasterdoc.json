@@ -21,7 +21,7 @@
            "Order": 4
          },
         {
-           "RawFilePath": "https://github.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/blob/prod/Instructions/Labs/Lab_04_ConfigureExternalCollaborationSettings.md",
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/refs/heads/prod/Instructions/Labs/Lab_04_ConfigureExternalCollaborationSettings.md",
            "Order": 5
          },
         {
@@ -33,7 +33,7 @@
            "Order": 7
          },
         {
-           "RawFilePath": "https://github.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/blob/prod/Instructions/Labs/Lab_07_AddHybridIdentityWithAzureADConnect.md",
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-300-Identity-and-Access-Administrator/refs/heads/prod/Instructions/Labs/Lab_07_AddHybridIdentityWithAzureADConnect.md",
            "Order": 8
          },
         {
