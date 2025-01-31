@@ -32,7 +32,7 @@ To adjust the zoom level for the environment page, click the A↕ : 100% icon lo
 
 ## **Managing Your Virtual Machine**
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **start, stop, or restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](./media/gs5.png)
  
